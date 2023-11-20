@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/356274391a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Java Developer</p>
+                <h1>Hi, I'm <span>ArunKumar</span><br> From India </h1>
+            </div>
+        </div>
+    </div>
+    <!--------------about-------------->>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a highly motivated individual seeking a challenging position where I can contribute my skills and abilities to the growth of an organization. With a strong background in Java programming and web development, I have a deep understanding of object-oriented principles, database management, and front-end technologies. I am passionate about continuously expanding my knowledge and staying up-to-date with the latest industry trends. <br>
+
+                        In terms of technical expertise, I am proficient in using Eclipse IDE and have a solid understanding of Java programming language elements, including data types, variables, operators, strings, and control statements. Additionally, I have experience in implementing JDBC, Servlets, JS, Hibernate, Spring, Spring-MVC, Spring-IOC, and Spring-Boot. I am well-versed in multithreading, collections, and exception handling, having successfully applied these concepts in various software projects. <br><br>
+                        
+                        My educational background includes a Bachelor's degree in Civil Engineering, which has equipped me with strong analytical and problem-solving skills. Throughout my academic journey, I have undertaken projects that demonstrate my ability to apply theoretical knowledge in practical scenarios. For instance, I led a team in analyzing the strength of Geopolymer Concrete cubes by using overburnt brick pieces as a partial replacement for coarse aggregates. This project required expertise in mix design and proportions, showcasing my technical capabilities beyond programming. <br><br>
+                        
+                        Beyond technical skills, I possess excellent interpersonal skills and thrive in a collaborative team environment. I am an effective communicator with a proven track record of delivering clear and concise information. As a self-motivated individual, I am always eager to take on new challenges and responsibilities. I am known for my time management skills, which enable me to handle multiple tasks efficiently without compromising quality. <br><br>
+                        
+                        In summary, I bring a strong foundation in Java programming, web development, and database management, along with a solid academic background in Civil Engineering. My ability to quickly grasp new technologies and my dedication to continuous learning make me an asset in today's rapidly evolving tech industry. I am excited to contribute my skills and drive to a dynamic organization that values innovation and growth.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('employement')">Employement</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Core Java</span><br>Designing desktop Applications</li>
+                            <li><span>AdvanceJava (J2EE)</span><br>Enterprice Development</li>
+                            <li><span>Web Technologies</span><br> Web app interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="employement">
+                        <ul>
+                            <li><span>FRESHER</span><br> Seeking Opportunities to Apply and Expand My Skills</li>
+                            <!-- <li><span>Web Development </span><br> Web app interfaces</li>
+                            <li><span>App Development</span><br>Building Andriod apps</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>SSC(10th)-2016</span><br>Adharsha Vidyadayani High School</li>
+                            <li><span>Intermediate-2018</span><br>Narayana Junior College</li>
+                            <li><span>B.tech(Civil)-2022</span><br>kakatiya University College Of Engineering and Technology</li>
+                            <li><span>Java Training-2022</span><br>J Spiders Institutions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------services-------->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Development</h2>
+                    <p>Front-end development, also known as client-side development, focuses on the user interface 
+                       and  user experience of a website or web application. <br>
+                       Front-end developers work with technologies like HTML, CSS, and JavaScript to create the visible and interactive elements of a web page. <br>
+                       They are responsible for designing the layout, styling, and interactivity of the user interface to ensure a visually appealing and user-friendly experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <!-- <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, nobis!</p>
+                    <a href="#">Learn more</a>
+                </div> -->
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------portfolio--------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <!-- <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam culpa repellat dolorem. Explicabo autem dolor ullam obcaecati, architecto pariatur totam?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div> -->
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>Food App</h3>
+                        <p>Online food ordering is the process of ordering food, for delivery or pickup, from a website or other application. The product can be either ready-to-eat food (e.g., direct from a home-kitchen, restaurant, or a virtual restaurant) or food that has not been specially prepared for direct consumption (e.g., vegetables direct from a farm/garden, fruits, frozen meats. etc).</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app. Consumers find a product of interest by visiting the website of the retailer directly or by searching among alternative vendors using a shopping search engine, which displays the same product's availability and pricing at different e-retailers. As of 2020, customers can shop online using a range of different computers and devices, including desktop computers, laptops, tablet computers and smartphones.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!----------contect--------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>arunnani03@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>8297182109</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/arunkumar-singajogi/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ArunNani07"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.instagram.com/king_.of_.my_.queen_._/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/my-cv1.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="copyright">
+            <p>copyright @ Kevin ,made with by Easy Tutorils</p>
+        </div> -->
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw2VqW96atL_MCjZcJmlmoEJ9-wGf0qJ-d6cK6j6GLhKRUkd84y3F2yojuhcal6uMMy9Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Messege Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
